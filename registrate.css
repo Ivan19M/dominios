@@ -1,0 +1,166 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a2bde6;
+}
+
+/* Estilos para el encabezado de navegación */
+.menu {
+    background-color: #fca311; /* Cambio de color a amarillo */
+    color: #14213d; /* Cambio de color a azul oscuro */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #14213d;
+}
+
+.navbar-nav .nav-link {
+    color: #14213d; /* Cambio de color a azul oscuro */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fca311; /* Cambio de color a amarillo en el hover */
+}
+
+/* Estilos para el formulario de registro */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #14213d;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form_titulo {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #14213d; /* Cambio de color a azul oscuro */
+}
+
+.form_parrafo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form_link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form_link:hover {
+    text-decoration: underline;
+}
+
+.form_container {
+    margin-top: 20px;
+}
+
+.form_group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form_label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 14px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label {
+    top: 5px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+.form_line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #007bff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+}
+
+.form_input:focus + .form_label + .form_line,
+.form_input:not(:placeholder-shown) + .form_label + .form_line {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.form_submit {
+    background-color: #007bff;
+    background-color: #a2bde6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_submit:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #14213d;
+    color: #fca311; /* Cambio de color a amarillo */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px; /* Aumento del margen superior para bajar el pie de página */
+}
+
+/* Estilos para el título en la parte final */
+.h3_titulo {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #14213d;
+}
+
+/* Reducción del tamaño de la barra de navegación */
+.menu {
+    background-color: #fca311;
+    color: #14213d;
+    padding: 5px 0;
+}
+
+
+
+
+img {
+    width: 75px; /* ajusta el valor según tus necesidades */
+    height: auto; /* mantiene la proporción de aspecto */
+}
